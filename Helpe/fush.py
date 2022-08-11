@@ -8,7 +8,9 @@ import datetime as dt
 root = Tk()
 root.title('SEVGI HATI')
 def time():
-    soat =strftime('acer')
+    soat =strftime('    SIZNI\n'
+                   '   SEVAMAN \n'
+                   '   GO`ZALIM')
 
     label.config(text=soat)
     label.after(1000,time)
